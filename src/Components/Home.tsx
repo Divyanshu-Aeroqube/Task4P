@@ -123,10 +123,11 @@ const Home = () => {
         </article>
 
       </section>
-
+{/* title section */}
       <section className='w-full bg-bgcolor'>
       <article className=' w-[80%] mx-auto flex flex-col sm:flex-row justify-between flex-wrap gap-[4.125rem]'>
         <div className='flex-1 w-1/2 mt-[7.625rem] mb-[8.43rem]'>
+        
           <h1 className="font-kanit text-[2rem] text-left text-headColor mb-[1.8rem]">Title for the key features of the villa goes here</h1>
           <p className="font-mulish text-left pr-[4.5rem] mb-[3.125rem] text-[1.2rem] text-subheading">
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

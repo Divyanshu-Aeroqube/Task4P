@@ -22,6 +22,8 @@ const AboutUs = () => {
       <img src={about} alt="" className='w-[80%] mx-auto' />
     </figure>
 
+
+{/* mission and vision section */}
     <section className='w-full'>
       <article className='w-[80%] mx-auto flex mb-[1.87rem]'>
         <div className='my-[9.5rem] w-1/2'>
@@ -37,31 +39,44 @@ const AboutUs = () => {
           <img src={Mission} className='w-full h-[18.67rem]' alt="" />
         </figure>
       </article>
+
+
+      <article className='w-[80%] mx-auto flex mb-[1.87rem]'>
+      <figure className='w-1/2 mt-[8.75rem] mb-[10.12rem]'>
+          <img src={Vision} className='w-full h-[18.67rem]' alt="" />
+        </figure>
+        <div className='my-[9.5rem] w-1/2'>
+          <h1 className='font-kanit text-[2rem] text-headColor text-left mb-[1.375rem]'>Our Vision</h1>
+          <div className=' mr-[4rem]'>
+      <p className=' font-mulish text-[1.12rem] text-left text-subheading'>Homeowners spend a huge amount of time dealing with the hassles of general property management - fragmented suppliers and vendors, lack of planning and tracking, lack of time to negotiate and monitor capital projects, and having to jump-start their property each time they want to visit. All this costs money and energy and often leads to a disconnect between the experience a homeowner wants from their home and what their experience actually is.</p>
+      </div>
+        </div>
+
+      </article>
     </section>
 
 
 
       {/* fact section */}
-      <div className="m-2 bg-[#3c64b1]/10 rounded-lg sm:m-20">
-  <div className="px-4 py-10 sm:px-10 lg:px-30 lg:pt-20 pb-10">
-    <img src={Bulb} className='block mx-auto' alt="" />
-    <h1 className="font-kanit text-center text-lg sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
+      <section className="w-full mb-[6.25rem] ">
+  <article className="w-[80%] mx-auto bg-[#eaf0ff] rounded-md">
+  <figure className="flex justify-center mx-auto pt-[3.125rem]">
+  <img src={Bulb} alt="" className="block" />
+</figure>
+    <h1 className="font-kanit text-[2rem] text-headColor text-center mb-[1.375rem] mx-[17.81rem]">
     Facts About Shitlakhet
     </h1>
-    <p className="text-center text-sm sm:text-md md:text-lg px-2 sm:px-10 lg:px-35 text-gray-500 mt-4">
+    <p className="font-mulish text-[1.45rem] mb-[2.5rem] text-center text-subheading mx-[11.87rem]">
     The mesmerizing view of the sun-kissed hills, rich flora-fauna and the cool breeze carrying away the scent of the rosy rhododendrons makes Sitlakhet an ideal retreat.
     </p>
-    <p className="text-center text-sm sm:text-md md:text-lg px-2 sm:px-10 lg:px-35 text-gray-500 mt-4">
+    <p className="font-mulish text-[1.45rem] mb-[2.5rem] text-center text-subheading mx-[11.87rem]">
     A very wide range of Himalayas is visible from here. Surrounded by about 1800 hectares of forest area from all sides.
     </p>
-    <p className="text-center text-sm sm:text-md md:text-lg px-2 sm:px-10 lg:px-35 text-gray-500 mt-4">
+    <p className="font-mulish text-[1.45rem] pb-[2.5rem] text-center text-subheading mx-[11.87rem]">
     Shitlakhet is known for its natural beauty. Nestled in the lap of nature, this hill station attracts tourists. Shitlakhet is a small hill station. But it is very calm and pleasant. Here you can see the beautiful peaks of the Himalayas.
     </p>
-    {/* <div className="mt-8 ">
-      <img src={about} alt=''/>
-    </div> */}
-  </div>
-</div>
+  </article>
+</section>
 
 
 
