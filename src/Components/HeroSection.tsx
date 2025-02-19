@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="font-kanit text-center text-forlg text-headColor leading-[4.06rem] tracking-[1px]">
             Take your <span className='font-semibold'>real estate</span> experience to new heights in the <span className='font-semibold'>Himalayas</span>
           </h1>
-          <p className="text-mulish text-center tracking-[0.3px] leading-[30px] text-subheading text-[1.25rem] mt-[0.95rem] mx-[1.81rem]">
+          <p className="text-mulish text-center tracking-[0.3px] leading-[30px] text-subheading text-[1.25rem] mt-[0.95rem] mx-[5rem]">
             Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te.
           </p>
         </div>

@@ -6,7 +6,13 @@ const Navbar = () => {
   return (
 <nav className="w-full h-[5.5rem] shadow-sm py-1.5 flex items-center bg-bgcolor">
   <div className="w-[80%] mx-auto flex justify-between items-center h-full">
-    <img className="h-[1rem] w-[8rem] sm:h-[1.5rem] w-[9rem] md:h-[2.413rem] w-[12.8rem]" src={logo} alt="VillaCrest" />
+  <Link to="/">
+  <img
+    className="h-[1rem] w-[8rem] sm:h-[1.5rem] sm:w-[9rem] md:h-[2.413rem] md:w-[12.8rem] cursor-pointer"
+    src={logo}
+    alt="VillaCrest"
+  />
+</Link>
     <div className="sm:hidden ml-auto flex items-center">☰</div>
     <div className="hidden sm:flex gap-1 justify-between md:gap-3 lg:gap-10 items-center text-wrap">
       {[
